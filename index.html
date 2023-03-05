@@ -1,0 +1,88 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="operators">
+		<meta name="keywords" content="HTML,JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Operators</title>
+	
+	
+	</head>
+	
+	<body>
+		<script>
+			//Arithmatic
+			console.log("------Arithmatic-----")
+			var a=10; b=5; c="10";
+			console.log(a+b)
+			console.log(a-b)
+			console.log(a*b)
+			console.log(a/b)
+			console.log(a%b)
+			console.log(++a)
+			console.log(a++)
+			console.log(a++)
+			console.log(--a)
+			console.log(a--)
+			console.log(a--)
+			console.log(a**b)
+
+			//comparison
+			console.log("------Comparission-----")
+			console.log(a<b)
+			console.log(a>b)
+			console.log(a>=b)
+			console.log(a<=b)
+			console.log(a==c)
+			console.log(a!=c)
+			console.log(a===c)
+			console.log(a!==c)
+
+			//logical
+			console.log("------Logical-----")
+			console.log(a<b && a>c)
+			console.log(a<b || a>c)
+			console.log(!(a<b && a>c))
+			console.log(!(a<b || a>c))
+
+			//Assignment
+			console.log("------Assignment-----")
+			var d;
+			console.log(d=a)
+			console.log(d+=b)
+			console.log(d-=b)
+			console.log(d*=b)
+			console.log(d/=b)
+			console.log(d%=b)
+
+			//Ternary
+			console.log("------Ternary-----")
+			let f=a>b ? "a is bigger":"b is bigger";
+			console.log(f)
+			//var g=prompt("Who is the pongal winner?")
+			//let i=g>="Varisu"? "Varisu is the pongal winner":"Thunivu is the pongal winner"
+			//console.log(i);
+
+			//Expression
+			console.log("------Expression-----")
+			var x=100; y=10; z=50;
+			console.log(x+z/y-x);
+			console.log(y-x*y+z/y);
+			console.log(x/z/y+x-z);
+			console.log(z/y*x-90%x);
+			console.log(x*y+z-y/x);
+			console.log(x+x*++y-z);
+			console.log(x+z/--y*x);
+			console.log(x**2+y/x);
+			console.log(-x*z/x%y);
+			console.log(x%z/y+x/y);
+
+			var a=10; b=20; c=2;
+			let x=(a*b>=c) ? "Good":"Bad"
+			console.log(x);
+
+
+		</script>
+	</body>
+</html>
